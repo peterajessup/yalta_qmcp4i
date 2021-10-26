@@ -9,7 +9,7 @@ oc delete QueueManager yalta-queue-manager
 oc delete route yaltaroute
 oc delete secret yaltakey
 oc delete configMap yalta-mqsc
-oc delete persistentvolumeclaim 
+oc delete persistentvolumeclaim data-yalta-queue-manager-ibm-mq-0
 set -e
 # Create the route and the keystore secret and mqsc configMap
 oc apply -f yaltaRoute.yaml
