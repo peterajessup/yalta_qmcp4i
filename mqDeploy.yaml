@@ -1,8 +1,8 @@
 apiVersion: mq.ibm.com/v1beta1
 kind: QueueManager
 metadata:
-  name: mq1
-  namespace: mq
+  name: yalta-queue-manager
+  namespace: yalta
 spec:
   license:
     accept: true
@@ -19,12 +19,12 @@ spec:
     availability:
       type: SingleInstance
       #type: NativeHA
-    name: QM1
+    name: YALTA
     mqsc:
     - configMap:
-        name: mq1-mqsc
+        name: yalta-mqsc
         items:
-        - ivt.mqsc
+        - yalta.mqsc
   template:
     pod:
       containers:
@@ -37,7 +37,7 @@ spec:
   web:
     enabled: true
   tracing:
-    enabled: true
+    enabled: false
     namespace: ops-dash
   pki:
     keys:
