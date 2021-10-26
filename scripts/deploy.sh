@@ -1,5 +1,5 @@
 #!/bin/bash
-oc project mq 
+oc project yalta
 set +e
 # Remove the runnning queue manager instance (if any)
 
