@@ -43,7 +43,7 @@ spec:
     keys:
       - name: label1
         secret:
-          secretName: mq1key
+          secretName: yaltakey
           items:
             - tls.key
             - tls.crt
