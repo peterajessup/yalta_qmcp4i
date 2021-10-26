@@ -4,7 +4,7 @@ metadata:
   name: yaltaroute 
   namespace: yalta 
 spec:
-  host: tls.chl.mq.ibm.com
+  host: tls1.chl.mq.ibm.com
   to:
     kind: Service
     name: yalta-queue-manager-ibm-mq
