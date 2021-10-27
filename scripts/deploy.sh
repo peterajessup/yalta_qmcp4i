@@ -1,5 +1,5 @@
 #!/bin/bash
-oc project yalta
+oc project cp4i
 set +e
 # Remove the runnning queue manager instance (if any)
 
