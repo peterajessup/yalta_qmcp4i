@@ -2,7 +2,7 @@ apiVersion: mq.ibm.com/v1beta1
 kind: QueueManager
 metadata:
   name: yalta-queue-manager
-  namespace: yalta
+  namespace: cp4i
 spec:
   license:
     accept: true
@@ -37,8 +37,8 @@ spec:
   web:
     enabled: true
   tracing:
-    enabled: false
-    namespace: ops-dash
+    enabled: true
+    namespace: cp4i
   pki:
     keys:
       - name: label1
