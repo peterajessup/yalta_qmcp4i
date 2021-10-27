@@ -2,7 +2,7 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: yaltaroute 
-  namespace: yalta 
+  namespace: cp4i 
 spec:
   host: tls1.chl.mq.ibm.com
   to:
