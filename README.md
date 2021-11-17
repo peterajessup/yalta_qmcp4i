@@ -1,4 +1,4 @@
-# cp4idemomq
+# yalta_qmcp4i
 
 This repository is to be used for creating an MQ Queue Manager on OCP, version 4.6.x, with IBM's Cloudpak for Integration Installed (verison 2021.1.1 or higher).
 
