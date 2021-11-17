@@ -16,5 +16,4 @@ oc apply -f yaltaRoute.yaml
 oc create secret tls yaltakey --cert=./tls/tls.crt --key=./tls/tls.key
 oc create -f mqsc/mqsc.yaml
 
-set -e
 oc apply -f mqDeploy.yaml
